@@ -1,0 +1,330 @@
+.links li a {
+    color: white; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: black;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #9999;
+  
+  
+  
+  
+
+  
+}
+
+.box:hover{
+   transform: scale(1.1)
+  }
+.box1:hover{
+   transform: scale(1.1)
+  }
+.box2:hover{
+   transform: scale(1.1)
+  }
+
+a {
+  text-decoration: none;
+  
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+.landing-page \ {
+  min-height: 80px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.landing-page header .logo {
+color: white;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 30px;
+  hover: 500px;
+  
+  
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 30px;
+  color: black;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+}
+
+
+
+
+.footer{
+padding:200px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+  
+
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:white;
+font-size:1em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:white;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:lightblue;
+  
+}
+
+.footer .row ul{
+width:100%;
+
+  
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 300%;
+  
+}
+
+.row{
+  justify-content: space-around;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+ 
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:center;
+}
+.footer .row a i{
+margin:0% 3%;
+text-align: center;
+  
+ 
+}
+}
+
+.row2 {
+    color:white;
+padding: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* wildcard styling */
+        * {
+            box-sizing: border-box;
+          
+        }
+ 
+        /* padding for whole body */
+        body {
+          z-index:0;
+          padding: 35px;
+      background-image: url("https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-3840x2160-8324.png"); 
+          background-size: cover; 
+  background-attachment: fixed;
+          
+      
+          
+          
+        }
+ 
+.box{width: 400px;
+      height:500px;
+      border: 5px solid #000;
+      background-image: url("https://r.resimlink.com/1iOyKDpce0UF.png");
+  background-size: 100% 100%;
+  
+}
+
+.box1{width: 400px;
+      height:500px;
+      border: 5px solid #000;
+      background-image: url("https://r.resimlink.com/YQA5fxyu.png");
+  background-size: 100% 100%;
+}
+
+.box2{width: 400px;
+      height:500px;
+      border: 5px solid #000;
+      background-image: url("https://r.resimlink.com/CTM70iE-2Yl5.png");
+  background-size: 100% 100%;
+}
+
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+  
+  
+    
+        /* styling body */
+        .container {
+            max-width: 1200px;
+          a:hover{
+color:#038C73;
+          
+          
+        }
+ 
+        h1 {
+            color: white;
+          text-align:center;
+        }
+ 
+        /* anchor tag decoration */
+        a {
+            text-decoration: none;
+            color: black;
+        }
+ 
+        a:hover {
+            color: lightblue;
+        }
+ 
+        /* paragraph tag decoration */
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+ 
+        }
+ 
+        /* row and column decoration */
+        .row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+ 
+        .row>.column {
+            padding: 6px;
+          margin-bottom: 400px;
+          margin-top: 10px;
+        }
+ 
+        .column {
+            float: left;
+            width: 25%;
+        }
+ 
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+ 
+        /* content decoration */
+        .content {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+ 
+        /* window size 850 width set */
+        @media screen and (max-width: 850px) {
+            .column {
+                width: 50%;
+            }
+        }
+ 
+        /* window size 400 width set */
+        @media screen and (max-width: 400px) {
+            .column {
+                width: 100%;
+            }
+        }
